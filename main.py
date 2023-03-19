@@ -24,16 +24,15 @@ def parallel_processing(n, m, data):
     return output
 
 def main():
-    mode = input()
-    if mode[0] == "I":
+
     # TODO: create input from keyboard
     # input consists of two lines
     # first line - n and m
     # n - thread count 
     # m - job count
-        string = input().split()
-        n = int(string[0])
-        m = int(string[1])
+    string = input().split()
+    n = int(string[0])
+    m = int(string[1])
 
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
