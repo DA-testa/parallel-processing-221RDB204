@@ -36,9 +36,7 @@ def main():
 
     # second line - data 
     # data - contains m integers t(i) - the times in seconds it takes any thread to process i-th job
-        data = input().split()
-    else:
-        return
+    data = input().split()
     # TODO: create the function
     assert len(data) == m
     result = parallel_processing(n,m,data)
